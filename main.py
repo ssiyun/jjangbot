@@ -681,5 +681,5 @@ async def l(ctx, arg):
     text_ipchal = "4인 / " + f'{int(ipchal4)}\n' + "8인 / " + f'{int(ipchal8)}'
     await ctx.send(embed=set_Embed(title=f"{ipchal_title}", description=f"{text_ipchal}"))
 
-token = ("OTkxOTAxOTUyMjkwMDcwNjAw.GeS1oo.YVIUx2sKsgfXll8--uVUveaRSVC8DS5ZW36s5U")
+token = open("token", "r").readline()
 bot.run(token)
