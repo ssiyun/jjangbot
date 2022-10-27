@@ -1,0 +1,8 @@
+PyNaCl
+asyncio
+discord.py
+youtube_dl
+youtube-search
+discord-py-interactions
+discord-voice
+discord-py-slash-command
